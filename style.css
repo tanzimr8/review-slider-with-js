@@ -1,0 +1,28 @@
+body{
+    min-height: 100vh;
+    background-color: #acb7ae ;
+    font-family: 'Poppins', sans-serif;
+
+}
+body,.reviews, .review-card, .review-reviews,.card-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews{
+    width: 45%;
+    background-color: #fefefe;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.reviews h2, .card-header, .name, .designation, .review-reviews p, a{
+    text-align: center;
+}
+.card-header img{
+    max-width: 80px;
+}
+.card-footer .review-navigation img{
+    max-width: 32px;
+    cursor: pointer;
+}
