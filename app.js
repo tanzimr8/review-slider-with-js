@@ -52,7 +52,16 @@ next.addEventListener('click',()=>{
     }
     setReviews(reviews[current]);
 
-})
+});
+prev.addEventListener('click',()=>{
+    // console.log('click)
+    current--;
+    if(current < 0 ){
+        current = reviews.length-1;
+    }
+    setReviews(reviews[current]);
+
+});
 
 const setReviews = (data)=>{
     avatar.src = `images/${data.image}`;
